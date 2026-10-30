@@ -1,0 +1,78 @@
+release_date,product,family,segment,kernel,support_end,notes
+1985-11-20,Windows 1.01,DOS-оболочка,клиентская,16-bit,2001-12-31,Первый релиз; плиточные окна; MS-DOS Executive; анонс — ноябрь 1983
+1986-11,Windows 1.02,DOS-оболочка,клиентская,16-bit,2001-12-31,Международные версии
+1987-01,Windows 1.03,DOS-оболочка,клиентская,16-bit,2001-12-31,Расширение драйверов
+1987-08,Windows 1.04,DOS-оболочка,клиентская,16-bit,2001-12-31,Поддержка IBM PS/2
+1987-12-09,Windows 2.03,DOS-оболочка,клиентская,16-bit,2001-12-31,Перекрывающиеся окна; Excel и Word для Windows
+1988-05-27,"Windows/286, Windows/386",DOS-оболочка,клиентская,16-bit,2001-12-31,V86-мультизадачность DOS-сессий на 386
+1989-03,"Windows 2.11 (286/386)",DOS-оболочка,клиентская,16-bit,2001-12-31,Управление памятью; принт-спулер
+1990-05-22,Windows 3.0,DOS-оболочка,клиентская,16-bit,2001-12-31,Program Manager; protected mode; ≈10 млн копий
+1991-10,"Windows 3.0 with Multimedia Extensions 1.0",DOS-оболочка,клиентская,16-bit,2001-12-31,Первый мультимедиа-стандарт PC
+1992-04-06,Windows 3.1,DOS-оболочка,клиентская,16-bit,2001-12-31,TrueType; OLE; 3 млн копий за первые 2 месяца
+1992-10,Windows for Workgroups 3.1,DOS-оболочка,клиентская,16-bit,2001-12-31,Встроенная сеть (SMB)
+1993-03,Windows 3.11,DOS-оболочка,клиентская,16-bit,2001-12-31,Правки сетевой подсистемы
+1993-08,Windows for Workgroups 3.11,DOS-оболочка,клиентская,16-bit,2001-12-31,32-bit TCP/IP-стек
+1993-07-27,"Windows NT 3.1 (Workstation / Advanced Server)",NT,клиентская+серверная,32-bit hybrid,2004-12-31,Начало линейки NT (команда Дэйва Катлера); Win32; NTFS
+1994-09-21,Windows NT 3.5,NT,клиентская+серверная,32-bit hybrid,2004-12-31,Ускорение; TCP/IP по умолчанию
+1995-05-30,Windows NT 3.51,NT,клиентская+серверная,32-bit hybrid,2004-12-31,PCMCIA; интерфейс эпохи 3.x
+1995-08-24,Windows 95,9x,клиентская,16/32-bit,2001-12-31,Start; панель задач; Explorer; Plug and Play; OSR2 (08.1996) — FAT32
+1996-08-24,"Windows NT 4.0 (Workstation / Server)",NT,клиентская+серверная,32-bit hybrid,2004-12-31,Интерфейс Windows 95; IIS; Terminal Server Edition — 1999
+1998-06-25,Windows 98,9x,клиентская,16/32-bit,2006-07-11,USB; AGP; интеграция IE4; FAT32 в рознице
+1999-05-05,Windows 98 Second Edition,9x,клиентская,16/32-bit,2006-07-11,ICS; DVD; споры дат: часть справочников указывает 10.06.1999
+2000-02-17,"Windows 2000 (Professional / Server / Advanced Server / Datacenter)",NT,клиентская+серверная,32-bit hybrid,2010-07-13,Active Directory; NTFS 3.0; EFS
+2000-09-14,Windows Me,9x,клиентская,16/32-bit,2006-07-11,Последняя 9x; System Restore; репутация самой нестабильной
+2001-10-25,Windows XP,NT,клиентская,32-bit hybrid,2014-04-08,Объединение consumer/pro; активация; Luna; SP1 09.2002; SP2 08.2004; SP3 05.2008
+2001-11,Windows XP Embedded,Embedded,встраиваемая,32-bit hybrid,2016-04-12,Компонентная сборка; наследники POSReady 2009 — до 04.2019
+2003-04-24,Windows Server 2003,NT,серверная,32/64-bit,2015-07-14,IIS 6; R2 — 06.12.2005
+2005-04-25,Windows XP Professional x64 Edition,NT,клиентская,64-bit,2014-04-08,Запрет неподписанных x64-драйверов
+2006-11-30,Windows Vista (business),NT,клиентская,32/64-bit,2017-04-11,RTM 08.11.2006; Aero; UAC; WDDM; BitLocker
+2007-01-30,Windows Vista (consumer),NT,клиентская,32/64-bit,2017-04-11,SP1 04.02.2008; SP2 28.04.2009
+2007-07-21,Windows Home Server,NT,домашний сервер,32-bit,2013-01-08,Drive Extender; дата по MS Lifecycle; часть справочников — ноябрь 2007
+2008-02-27,Windows Server 2008,NT,серверная,32/64-bit,2020-01-14,Hyper-V; R2 — 22.10.2009 (только x64)
+2009-10-22,Windows 7,NT,клиентская,32/64-bit,2020-01-14,Superbar; библиотеки; XP Mode; SP1 22.02.2011; >630 млн лицензий
+2012-09-04,Windows Server 2012,NT,серверная,64-bit,2023-10-10,Hyper-V 3.0; усиленный Server Core
+2012-10-26,Windows 8,NT,клиентская,32/64-bit,2016-01-12,Metro; Start screen; Store; Windows RT для ARM
+2013-10-17,Windows 8.1,NT,клиентская,32/64-bit,2023-01-10,Возврат кнопки Пуск; Update — 08.04.2014
+2013-10-18,Windows Server 2012 R2,NT,серверная,64-bit,2023-10-10,Work Folders; многоуровневое хранилище
+2015-07-29,Windows 10 1507 (Threshold 1),NT,клиентская,32/64-bit,2025-10-14,Начало Windows as a Service; бесплатное обновление; GWX-кампания
+2015-11-12,Windows 10 1511 (Threshold 2),NT,клиентская,32/64-bit,2017-10-10,Улучшения Cortana и Edge
+2016-08-02,Windows 10 1607 (Redstone 1),NT,клиентская,32/64-bit,2018-04-10,Anniversary Update; WSL (Bash)
+2016-10-12,Windows Server 2016,NT,серверная,64-bit,2027-01-12,Nano Server (поворот, признан тупиковым); Shielded VMs; контейнеры
+2017-04-11,Windows 10 1703 (Redstone 2),NT,клиентская,32/64-bit,2019-10-08,Creators Update; Paint 3D
+2017-10-17,Windows 10 1709 (Redstone 3),NT,клиентская,64-bit,2020-10-13,Fall Creators; Files On-Demand; отключение SMB-гостевого доступа
+2018-04-30,Windows 10 1803 (Redstone 4),NT,клиентская,64-bit,2021-11-09,Timeline; удаление HomeGroup
+2018-11-13,Windows 10 1809 (Redstone 5),NT,клиентская,64-bit,2021-05-11,Отозван в октябре 2018 из-за удаления пользовательских файлов; переиздан
+2019-05-21,Windows 10 1903 (19H1),NT,клиентская,64-bit,2020-12-08,WSL 2; Windows Sandbox
+2019-11-12,Windows 10 1909 (19H2),NT,клиентская,64-bit,2022-05-10,Первый enablement-пакет
+2020-05-27,Windows 10 2004 (20H1),NT,клиентская,64-bit,2021-12-14,WSL 2 GA
+2020-10-20,Windows 10 20H2,NT,клиентская,64-bit,2022-05-10,Enablement-пакет
+2021-05-18,Windows 10 21H1,NT,клиентская,64-bit,2022-12-13,Enablement-пакет
+2021-11-16,Windows 10 21H2,NT,клиентская,64-bit,2023-06-13,Enablement-пакет; GPU Compute в WSL
+2022-10-18,Windows 10 22H2,NT,клиентская,64-bit,2025-10-14,Последняя версия Win10; EOS 14.10.2025; ESU: потребители до 13.10.2026, корпорации до 2028
+2021-08-02,Windows 365,Cloud,облачная,NT (виртуализация),по подписке,Cloud PC
+2021-10-04,Windows Server 2022,NT,серверная,64-bit,2031-10-13,HTTPS over QUIC; SMB compression
+2021-10-05,Windows 11 21H2 (Sun Valley),NT,клиентская,64-bit,2023-10-10,TPM 2.0 и Secure Boot обязательны; центрированный Пуск; MSA для Home
+2022-09-20,Windows 11 22H2 (Sun Valley 2),NT,клиентская,64-bit,2024-10-08,Вкладки в Проводнике; авто-HDR; build 22621
+2023-10-31,Windows 11 23H2,NT,клиентская,64-bit,2025-11-11,Enablement-пакет; Copilot-превью с 26.09.2023
+2024-10-01,Windows 11 24H2 (Germanium),NT,клиентская,64-bit,2026-10-13,Новый servicing branch; checkpoint updates; блоки установки по классам устройств
+2024-11-01,Windows Server 2025,NT,серверная,64-bit,2034-10-10,LTSC; на базе 24H2; hotpatching (GA 2025)
+2025-09-30,Windows 11 25H2,NT,клиентская,64-bit,≈2027-10 (24 мес, расчёт),Enablement KB5054156; новый одностраничный Пуск; Copilot Vision
+2026-09-29,Windows 11 26H2,NT,клиентская,64-bit,≈2028-09 (24 мес, расчёт),Enablement; Administrator protection (JIT-права); встроенный Sysmon; app-specific действия панели задач
+1996-11,Windows CE 1.0,CE,карманная/встраиваемая,CE,—,Начало мобильной ветки
+1997-09,Windows CE 2.0,CE,карманная/встраиваемая,CE,—,Handheld PC
+1999-08,Windows NT Embedded 4.0,Embedded,встраиваемая,32-bit NT,2004,—
+2000-04-19,Pocket PC 2000 (CE 3.0),CE,карманная,CE,—,Стандарт карманных ПК
+2001-10,Pocket PC 2002,CE,карманная,CE,—,—
+2003-06-23,Windows Mobile 2003,CE,карманная,CE,—,Бренд Windows Mobile
+2005-05-09,Windows Mobile 5.0,CE,карманная,CE,—,Managed code; почта push
+2007-02-12,Windows Mobile 6.0,CE,карманная,CE,—,—
+2009-10-06,Windows Mobile 6.5,CE,карманная,CE,—,Последний классический WM
+2010-10/11,Windows Phone 7,CE,мобильная,CE,—,—,ЕС 21.10.2010; США 08.11.2010; без пути обновления до WP8
+2012-10-29,Windows Phone 8,NT,мобильная,NT,—,Переход на NT-ядро; разрыв совместимости с WP7
+2014-04-14,Windows Phone 8.1,NT,мобильная,NT,—,Cortana; мобильный IE11
+2015-11,Windows 10 Mobile,NT,мобильная,NT,2020-01-14,Финальная ветка 1709 (2017); EOL продлён с 10.12.2019
+2011-03,Windows Embedded Compact 7,CE,встраиваемая,CE,—,Последняя крупная CE
+2015-08,Windows 10 IoT Core,IoT,встраиваемая,NT,—,Raspberry Pi 2 и одноплатники
+2016-08,Windows 10 IoT Enterprise LTSB 2016,IoT,встраиваемая,NT,2026-10-13,LTSC-ветка
+2021,Windows 10 IoT Enterprise LTSC 2021,IoT,встраиваемая,NT,2032-01-13,Долгосрочная поддержка
+2024-09-26,Windows 11 IoT Enterprise LTSC 2024,IoT,встраиваемая,NT,2034-10-10,Самый долгий горизонт поддержки клиентской Windows

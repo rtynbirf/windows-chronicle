@@ -1,0 +1,4 @@
+{
+  "proxy_chain": ["PROXY ac-proxy.example.org:3128", "SOCKS5 127.0.0.1:1080"],
+  "fallback": "DIRECT"
+}

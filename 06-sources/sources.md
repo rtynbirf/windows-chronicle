@@ -59,3 +59,10 @@
 - **Qualys (16.10.2026) — Microsoft Patch Tuesday October 2026 review** (1414 уязвимостей, 78 критических): https://blog.qualys.com/vulnerabilities-threat-research/2026/10/13/microsoft-patch-tuesday-october-2026-security-update-review
 - **KB3035583 в статусе «Recommended Update» с автоустановкой** — публикации 05.05.2016 (AskWoody: «KB3035583 is back! Say hello to automatic Windows 10 upgrades») и 23.05.2016 (How-To Geek); URL из выдачи не сохранены, факт зафиксирован по заголовкам/датам.
 - **Ubisoft-блок 24H2 (25.11.2024)** — перекрёстно с блоком A (BleepingComputer по USB-сканерам, та же волна блоков 24H2); официальное зеркало — Resolved issues in Windows 11, version 24H2 (Microsoft Learn).
+
+## F. Верификация PAC-блока 08 «Антицензор» (31.10.2026)
+
+- **MDN — Proxy Auto-Configuration (PAC) file** (MIME `application/x-ns-proxy-autoconfig`; типы возврата DIRECT/PROXY/SOCKS/HTTP/HTTPS/SOCKS4/SOCKS5, «свежие Firefox поддерживают HTTP/HTTPS/SOCKS4/SOCKS5»; предупреждение про dnsResolve/isInNet/isResolvable — DNS-нагрузка и зависания; host без порта; shExpMatch различается между движками): https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_PAC_file
+- **Wikipedia — Proxy auto-config** (EBNF типов; MIME-пара x-ns-proxy-autoconfig / x-javascript-config; ASCII-PAC универсален, UTF-8 — Firefox 66+; блокирующий dnsResolve; ненадёжный myIpAddress (127.0.0.1); MITM-риск HTTP-раздачи PAC (2013); кэш IE 5.5+ по домену, KB 271361): https://en.wikipedia.org/wiki/Proxy_auto-config
+- **The Chromium Projects — Secure Web Proxy** (официальная поддержка «HTTPS host:443» в возврате PAC; `--proxy-pac-url`; stunnel/squid https_port как реализации TLS-прокси): https://www.chromium.org/developers/design-documents/secure-web-proxy
+- **Microsoft TechCommunity — Managing PAC Script Configuration in Microsoft Edge (27.04.2025)** (Edge качает PAC собственным стеком только по http/https/ftp, file:// не поддерживается): https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/managing-pac-script-configuration-in-microsoft-edge/4408557

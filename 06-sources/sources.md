@@ -48,3 +48,14 @@
 - **«Последняя версия Windows»: BBC (08.05.2015):** https://www.bbc.com/news/technology-32658340 ; The Guardian (11.05.2015): https://www.theguardian.com/technology/2015/may/11/windows-10-last-version-microsoft
 - **Wikipedia — Microsoft Windows** (инфобокс: актуальные ветки 26H1/26H2 от 13.10.2026; ранние версии): https://en.wikipedia.org/wiki/Microsoft_Windows ; **Wikipedia — Windows Recall** (анонс 20.05.2024, шифрование БД при возврате): https://en.wikipedia.org/wiki/Windows_Recall
 - **GWX/KB3035583 как «рекомендуемое» обновление** (январь 2016): индастри-публикации и обсуждения (в т.ч. TenForums от 09.06.2015 о KB3035583).
+
+## E. Верификация тезиса «система самодостаточна» (31.10.2026, файл self-sufficiency-thesis.md)
+
+- **Ars Technica (27.06.2016) — Unwanted Windows 10 upgrade costs Microsoft $10,000** (иск Тери Голдштейн, Microsoft отозвала апелляцию): https://arstechnica.com/information-technology/2016/06/unwanted-windows-10-upgrade-costs-microsoft-10000
+- **Windows Experience Blog (John Cable, 09.10.2018) — Updated version of Windows 10 October 2018 Update** (причина 1809: Known Folder Redirection; отзыв ветки, включая Server 2019; оценка «0,01 %»): https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders
+- **Microsoft Q&A — отчёт о потере 220 ГБ / 23 года файлов в 1809** (03.10.2018): https://learn.microsoft.com/en-us/answers/questions/3150499/windows-10-october-2018-update-version-1809-delete
+- **Wikipedia — Patch Tuesday** (введён октябрь 2003 после Blaster): https://en.wikipedia.org/wiki/Patch_Tuesday
+- **Cloudflare Learning — WannaCry** (12.05.2017, 200 000+ машин, EternalBlue/SMBv1, MS17-010): https://www.cloudflare.com/learning/security/ransomware/wannacry-ransomware
+- **Qualys (16.10.2026) — Microsoft Patch Tuesday October 2026 review** (1414 уязвимостей, 78 критических): https://blog.qualys.com/vulnerabilities-threat-research/2026/10/13/microsoft-patch-tuesday-october-2026-security-update-review
+- **KB3035583 в статусе «Recommended Update» с автоустановкой** — публикации 05.05.2016 (AskWoody: «KB3035583 is back! Say hello to automatic Windows 10 upgrades») и 23.05.2016 (How-To Geek); URL из выдачи не сохранены, факт зафиксирован по заголовкам/датам.
+- **Ubisoft-блок 24H2 (25.11.2024)** — перекрёстно с блоком A (BleepingComputer по USB-сканерам, та же волна блоков 24H2); официальное зеркало — Resolved issues in Windows 11, version 24H2 (Microsoft Learn).

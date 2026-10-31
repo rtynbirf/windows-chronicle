@@ -11,8 +11,8 @@
 - **BleepingComputer — Windows 11 2025 Update (25H2) is now available** (30.09.2025): https://www.bleepingcomputer.com/news/microsoft/windows-11-2025-update-25h2-is-now-available-heres-whats-new
 - **Windows Central — Windows 11's market share is now up to 73% in February (2026)** (StatCounter: 72,78 % Win11 / 26,27 % Win10; декабрь 2025 — 50,73 %; Win11 = 1 млрд пользователей за 1576 дней): https://www.windowscentral.com/microsoft/windows-11/windows-11-statcounter-market-share-february-2026
 - **StatCounter — Desktop Windows Version Market Share Worldwide**: https://gs.statcounter.com/os-version-market-share/windows/desktop/worldwide
-- **ManagedSolution — Windows 10 ESU** (год 1 ESU заканчивается 13.10.2026; корпоративный ESU — до 3 лет): https://www.managedsolution.com/blog/windows-10-extended-security-updates
-- **Microsoft Learn Answers — When my current ESU ends** (потребительский ESU только до 13.10.2026, корпоративный — до 2028): https://learn.microsoft.com/en-gb/answers/questions/5585119/when-my-current-esu-extended-security-updates-ends
+- **ManagedSolution — Windows 10 ESU** (год 1 ESU заканчивается 13.10.2026; корпоративный ESU — до 3 лет; УСТАРЕЛО по дате — см. блок D, продление 25.06.2026): https://www.managedsolution.com/blog/windows-10-extended-security-updates
+- **Microsoft Learn Answers — When my current ESU ends** (потребительский ESU до 13.10.2026, корпоративный — до 2028; УСТАРЕЛО — см. блок D): https://learn.microsoft.com/en-gb/answers/questions/5585119/when-my-current-esu-extended-security-updates-ends
 - **CrowdStrike-инцидент** (19.07.2024, ≈8,5 млн устройств — оценка Microsoft): сообщения Microsoft от 20.07.2024 и технические разборы, включая https://www.crowdstrike.com/en-us/blog/reflections-on-the-crowdstrike-global-it-outage/
 - **Recall**: Maginative — Microsoft Delays Controversial Recall Feature (июнь 2024): https://www.maginative.com/article/microsoft-delays-controversial-recall-feature-for-copilot-pcs ; Abijita — Microsoft Makes Recall Opt-In, Requires Windows Hello (июнь 2024): https://www.abijita.com/microsoft-boosts-privacy-in-windows-recall-makes-it-opt-in-and-requires-windows-hello ; сообщение о переносе на декабрь 2024 (The Verge, 01.11.2024).
 - **Copilot+ PC** (анонс 20.05.2024, NPU ≥40 TOPS, Snapdragon X): материалы Microsoft от 20.05.2024 и обзоры (Galaxus: https://www.galaxus.nl/en/page/copilot-pcs-ai-notebooks-with-snapdragon-chips-33616 )
@@ -35,6 +35,16 @@
 
 ## C. Отметки о достоверности
 
-- Даты 2024–2026 взяты из источников блока A (проверено в этой сессии).
+- Даты 2024–2026 взяты из источников блоков A и D (проверено в этой сессии; блок D — второй проход верификации 31.10.2026).
 - Исторические даты — из блока B; где справочники расходятся (Win98 SE: 05.05/10.06.1999; Home Server: июль/ноябрь 2007; WP7: 21.10/29.10/08.11.2010) — в отчёте указаны оба варианта.
 - Оценочные величины (400–600 млн устройств за стеной Win11, ущербы от червей, проценты FPS от VBS) помечены как оценки индустрии и приведены для контекста, не как факты.
+
+## D. Дополнительная верификация 31.10.2026 (второй проход)
+
+- **microsoft.com — Windows 10 Consumer Extended Security Updates** (условия: Rewards 1000 / синхронизация настроек Windows Backup / $30; программа действует до 12.10.2027): https://www.microsoft.com/en-us/windows/extended-security-updates
+- **Продление потребительского ESU на второй год, вступило в силу 25.06.2026:** Schneider.im — «Windows 10 Personal ESU available through October 2027» (обновлено 10.07.2026): https://www.schneider.im/microsoft-windows-10-personal-extended-security-updates-available-through-october-2027 ; Spiceworks Community (26.06.2026): https://community.spiceworks.com/t/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/1254982
+- **bypassnro:** Windows Insider Blog — «Announcing Windows 11 Insider Preview Build 26200.5516» (28.03.2025, «We're removing the bypassnro.cmd script»): https://blogs.windows.com/windows-insider/2025/03/28/announcing-windows-11-insider-preview-build-26200-5516-dev-channel/
+- **1809:** Windows Experience Blog — «Resuming the rollout of the Windows 10 October 2018 Update» (13.11.2018; пауза «in early October», официально отмечена 09.10.2018): https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update
+- **«Последняя версия Windows»: BBC (08.05.2015):** https://www.bbc.com/news/technology-32658340 ; The Guardian (11.05.2015): https://www.theguardian.com/technology/2015/may/11/windows-10-last-version-microsoft
+- **Wikipedia — Microsoft Windows** (инфобокс: актуальные ветки 26H1/26H2 от 13.10.2026; ранние версии): https://en.wikipedia.org/wiki/Microsoft_Windows ; **Wikipedia — Windows Recall** (анонс 20.05.2024, шифрование БД при возврате): https://en.wikipedia.org/wiki/Windows_Recall
+- **GWX/KB3035583 как «рекомендуемое» обновление** (январь 2016): индастри-публикации и обсуждения (в т.ч. TenForums от 09.06.2015 о KB3035583).

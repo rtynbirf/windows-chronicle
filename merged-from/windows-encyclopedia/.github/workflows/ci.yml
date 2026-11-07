@@ -1,0 +1,27 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  docs-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Каркас 6 эпох существует и непуст
+        run: |
+          test -s README.md
+          for d in 01-timeline 02-versions 03-pain-points 04-promotions 05-poles 06-sources; do
+            ls "$d"/* > /dev/null 2>&1 || { echo "ПУСТО: $d/"; exit 1; }
+          done
+          test -s 05-poles/two-poles-list.md || { echo "нет списка полюсов"; exit 1; }
+          test -s 06-sources/verification-journal.md || { echo "нет журнала верификации"; exit 1; }
+          echo "каркас 6 эпох + полюса + журнал: OK"
+      - name: Без следов-заглушек
+        run: |
+          ! grep -rn -e 'TODO' -e 'XXX' -e '【' --include='*.md' --exclude='PULSE.md' .

@@ -1,0 +1,39 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  docs-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Ключевые файлы существуют и непусты
+        run: |
+          test -s README.md
+          for f in docs/01-methodology.md docs/02-timeline.md docs/03-eras.md docs/04-pain-points.md docs/05-promotion.md docs/06-two-poles-list.md docs/SOURCES.md data/timeline.csv data/pain-points.csv data/promotion.csv data/two-poles.csv; do
+            test -s "$f" || { echo "ПУСТ ИЛИ ОТСУТСТВУЕТ: $f"; exit 1; }
+          done
+          echo "11 ключевых файлов: OK"
+      - name: CSV-инвариант (разделитель ';', UTF-8 BOM)
+        run: |
+          python3 - <<'PY'
+          import csv, sys
+          expect = {"data/timeline.csv": 5, "data/pain-points.csv": 6,
+                    "data/promotion.csv": 5, "data/two-poles.csv": 6}
+          ok = True
+          for p, w in expect.items():
+              rows = list(csv.reader(open(p, encoding='utf-8-sig'), delimiter=';'))
+              bad = [i for i, r in enumerate(rows) if r and len(r) != w]
+              print(p, "строк:", len(rows), "полей:", w, "брак:", bad)
+              if bad: ok = False
+          sys.exit(0 if ok else 1)
+          PY
+      - name: Без следов-заглушек
+        run: |
+          ! grep -rn -e 'TODO' -e 'XXX' -e '【' README.md docs/ data/

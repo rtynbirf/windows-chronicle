@@ -1,0 +1,28 @@
+name: release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: startsWith(github.ref, 'refs/tags/v') # диспатч на ветке = graceful-skip
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: GitHub Release с автозаметками
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" --generate-notes --title "Релиз $GITHUB_REF_NAME"
+
+  heartbeat:
+    name: Зелёный пульс (диспатч без тега — штатное ожидание релиза)
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Пульс
+        run: echo "release ждёт настоящий тег v* — graceful-skip; ожидание = зелёный пульс"

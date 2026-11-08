@@ -1,0 +1,37 @@
+# windows-chronicle
+> Полная хроника Microsoft Windows 1985-2026: все версии, боли пользователей, продвижение, рейтинг двух полюсов
+
+Автоген 2026-11-08 · источник: живой GitHub API (номера и файлы не руками) · владелец rtynbirf · ветка `main`
+
+## Мембрана
+- README.md — для человека (🪟 Windows Chronicle (1985–2026))
+- AGENTS.md — есть
+- LICENSE — CC-BY-4.0
+- topics: history, microsoft, os-history, reference, timeline, windows, windows-canon
+
+## Карта корня
+- .github/
+- .gitignore
+- 01-history/
+- 01-timeline/
+- 02-classification/
+- 02-versions/
+- 03-pain-points/
+- 03-user-pains/
+- 04-promotion/
+- 04-promotions/
+- 05-poles/
+- 05-two-poles/
+- 06-sources/
+- 07-prototypes/
+- 08-anticenzor/
+- … ещё 11
+
+## CI
+- workflow: guardian-tripwire
+- workflow: self-audit
+
+## Ссылки
+- [GitHub](https://github.com/rtynbirf/windows-chronicle)
+- [README](https://github.com/rtynbirf/windows-chronicle/blob/main/README.md)
+- [raw llms.txt](https://raw.githubusercontent.com/rtynbirf/windows-chronicle/main/llms.txt)

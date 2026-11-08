@@ -1,0 +1,410 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Windows Chronicle · хроника событий 1985–2026",
+  "description": "Машинный таймлайн хроники Windows: релизы, вехи жизненного цикла, метрики доли и побочные линии. Составлен из data/timeline.csv (41 событий) скриптом scripts/csv_to_jsonld.py.",
+  "creator": {
+    "@type": "Organization",
+    "name": "windows-chronicle (rtynbirf)"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "temporalCoverage": "1985-11-20/2026-09",
+  "isBasedOn": "data/timeline.csv",
+  "@graph": [
+    {
+      "@type": "Event",
+      "@id": "#event-001",
+      "identifier": "WC-E001",
+      "name": "Windows 1.0 (RTM)",
+      "startDate": "1985-11-20",
+      "about": "клиент",
+      "description": "первая версия; ~$99",
+      "keywords": "V-001, V-002"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-002",
+      "identifier": "WC-E002",
+      "name": "Windows 2.0 (RTM)",
+      "startDate": "1987-12-09",
+      "about": "клиент",
+      "description": "перекрывающиеся окна",
+      "keywords": "V-003"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-003",
+      "identifier": "WC-E003",
+      "name": "Windows 2.1; /286 и /386",
+      "startDate": "1988-05-27",
+      "about": "клиент",
+      "description": "день ритейла UNVERIFIED",
+      "keywords": "V-004"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-004",
+      "identifier": "WC-E004",
+      "name": "Windows 3.0",
+      "startDate": "1990-05-22",
+      "about": "клиент",
+      "description": "первый массовый успех",
+      "keywords": "V-005"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-005",
+      "identifier": "WC-E005",
+      "name": "Windows 3.1 (RTM)",
+      "startDate": "1992-04-06",
+      "about": "клиент",
+      "description": "последняя 16-битная",
+      "keywords": "V-006"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-006",
+      "identifier": "WC-E006",
+      "name": "Windows for Workgroups 3.11",
+      "startDate": "1993-11-08",
+      "about": "клиент",
+      "description": "сетевая",
+      "keywords": "V-007"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-007",
+      "identifier": "WC-E007",
+      "name": "Windows 95 (розница)",
+      "startDate": "1995-08-24",
+      "about": "клиент",
+      "description": "Start Me Up; кнопка Пуск; 7 млн за 5 недель",
+      "keywords": "V-008, V-009, V-092"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-008",
+      "identifier": "WC-E008",
+      "name": "Windows 98 (розница)",
+      "startDate": "1998-06-25",
+      "about": "клиент",
+      "description": "Works Better Plays Better; запуск Windows Update",
+      "keywords": "V-010, V-011, V-093"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-009",
+      "identifier": "WC-E009",
+      "name": "Windows 98 SE",
+      "startDate": "1999-06-10",
+      "about": "клиент",
+      "keywords": "V-012"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-010",
+      "identifier": "WC-E010",
+      "name": "Windows 2000 (розница)",
+      "startDate": "2000-02-17",
+      "about": "клиент",
+      "description": "NT для бизнеса",
+      "keywords": "V-013"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-011",
+      "identifier": "WC-E011",
+      "name": "Windows ME (розница)",
+      "startDate": "2000-09-14",
+      "about": "клиент",
+      "description": "Mistake Edition по PC World",
+      "keywords": "V-014, V-052"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-012",
+      "identifier": "WC-E012",
+      "name": "Windows XP (розница)",
+      "startDate": "2001-10-25",
+      "about": "клиент",
+      "description": "ядро NT для всех; Product Activation",
+      "keywords": "V-015, V-071"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-013",
+      "identifier": "WC-E013",
+      "name": "Windows Vista для бизнеса",
+      "startDate": "2006-11-30",
+      "about": "клиент",
+      "description": "RTM 08.11.2006",
+      "keywords": "V-016"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-014",
+      "identifier": "WC-E014",
+      "name": "Windows Vista для потребителей",
+      "startDate": "2007-01-30",
+      "about": "клиент",
+      "description": "The Wow starts now",
+      "keywords": "V-016, V-096"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-015",
+      "identifier": "WC-E015",
+      "name": "Windows 7 (GA)",
+      "startDate": "2009-10-22",
+      "about": "клиент",
+      "description": "was my idea (CP+B)",
+      "keywords": "V-017, V-099"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-016",
+      "identifier": "WC-E016",
+      "name": "Windows 8 (GA)",
+      "startDate": "2012-10-26",
+      "about": "клиент",
+      "description": "Пуск убран; маркетинг 1,5-1,8 млрд",
+      "keywords": "V-018, V-079, V-100"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-017",
+      "identifier": "WC-E017",
+      "name": "Windows 8.1 (GA)",
+      "startDate": "2013-10-17",
+      "about": "клиент",
+      "description": "частичный возврат Пуска",
+      "keywords": "V-019, V-081"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-018",
+      "identifier": "WC-E018",
+      "name": "Windows 10 (GA)",
+      "startDate": "2015-07-29",
+      "about": "клиент",
+      "description": "бесплатный апгрейд; Do great things",
+      "keywords": "V-020, V-021"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-019",
+      "identifier": "WC-E019",
+      "name": "Win10: 1 млрд активных устройств",
+      "startDate": "2020-03-16",
+      "about": "метрика",
+      "description": "официально",
+      "keywords": "V-022"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-020",
+      "identifier": "WC-E020",
+      "name": "Анонс Windows 11",
+      "startDate": "2021-06-24",
+      "about": "клиент",
+      "keywords": "V-024"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-021",
+      "identifier": "WC-E021",
+      "name": "Windows 11 (GA)",
+      "startDate": "2021-10-05",
+      "about": "клиент",
+      "description": "TPM 2.0 обязателен",
+      "keywords": "V-025, V-026"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-022",
+      "identifier": "WC-E022",
+      "name": "Windows 11 22H2",
+      "startDate": "2022-09-20",
+      "about": "клиент",
+      "description": "MSA обязательна и в Pro",
+      "keywords": "V-027, V-072"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-023",
+      "identifier": "WC-E023",
+      "name": "Windows 11 23H2",
+      "startDate": "2023-10-31",
+      "about": "клиент",
+      "keywords": "V-027"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-024",
+      "identifier": "WC-E024",
+      "name": "Windows 11 24H2",
+      "startDate": "2024-10-01",
+      "about": "клиент",
+      "keywords": "V-027"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-025",
+      "identifier": "WC-E025",
+      "name": "Windows 11 25H2",
+      "startDate": "2025-09-30",
+      "about": "клиент",
+      "keywords": "V-027"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-026",
+      "identifier": "WC-E026",
+      "name": "EOL Windows 10",
+      "startDate": "2025-10-14",
+      "about": "жизненный цикл",
+      "description": "ESU: 30 долл/год или бесплатные пути; продлена до 10.2027",
+      "keywords": "V-023, V-044, V-045, V-046"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-027",
+      "identifier": "WC-E027",
+      "name": "Windows Server 2003",
+      "startDate": "2003-04-24",
+      "about": "сервер",
+      "keywords": "V-028"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-028",
+      "identifier": "WC-E028",
+      "name": "Windows Server 2008",
+      "startDate": "2008-02-27",
+      "about": "сервер",
+      "keywords": "V-029"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-029",
+      "identifier": "WC-E029",
+      "name": "Windows Server 2008 R2",
+      "startDate": "2009-10-22",
+      "about": "сервер",
+      "keywords": "V-030"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-030",
+      "identifier": "WC-E030",
+      "name": "Windows Server 2012",
+      "startDate": "2012-09-04",
+      "about": "сервер",
+      "keywords": "V-031"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-031",
+      "identifier": "WC-E031",
+      "name": "Windows Server 2012 R2",
+      "startDate": "2013-10-17",
+      "about": "сервер",
+      "keywords": "V-032"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-032",
+      "identifier": "WC-E032",
+      "name": "Windows Server 2016",
+      "startDate": "2016-10-12",
+      "about": "сервер",
+      "keywords": "V-033"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-033",
+      "identifier": "WC-E033",
+      "name": "Windows Server 2019",
+      "startDate": "2018-11-13",
+      "about": "сервер",
+      "keywords": "V-034"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-034",
+      "identifier": "WC-E034",
+      "name": "Windows Server 2022",
+      "startDate": "2021-08-18",
+      "about": "сервер",
+      "keywords": "V-035"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-035",
+      "identifier": "WC-E035",
+      "name": "Windows Server 2025",
+      "startDate": "2024-11-01",
+      "about": "сервер",
+      "description": "на ядре Win11 24H2",
+      "keywords": "V-036"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-036",
+      "identifier": "WC-E036",
+      "name": "Windows CE 1.0",
+      "startDate": "1996-11-16",
+      "about": "побочная",
+      "keywords": "V-037"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-037",
+      "identifier": "WC-E037",
+      "name": "Windows Mobile (Pocket PC 2000)",
+      "startDate": "2000-04",
+      "about": "побочная",
+      "keywords": "V-038"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-038",
+      "identifier": "WC-E038",
+      "name": "Windows Phone 7 (мир)",
+      "startDate": "2010-10-21",
+      "about": "побочная",
+      "description": "США 08.11.2010",
+      "keywords": "V-039"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-039",
+      "identifier": "WC-E039",
+      "name": "Конец поддержки WP 8.1",
+      "startDate": "2017-07-11",
+      "about": "побочная",
+      "description": "конец мобильной линии",
+      "keywords": "V-040"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-040",
+      "identifier": "WC-E040",
+      "name": "Patch Tuesday формализован",
+      "startDate": "2003-10",
+      "about": "служебное",
+      "description": "день первого UNVERIFIED",
+      "keywords": "V-043"
+    },
+    {
+      "@type": "Event",
+      "@id": "#event-041",
+      "identifier": "WC-E041",
+      "name": "Доля Windows 76,41% десктопов",
+      "startDate": "2026-09",
+      "about": "метрика",
+      "description": "StatCounter",
+      "keywords": "V-047"
+    }
+  ]
+}

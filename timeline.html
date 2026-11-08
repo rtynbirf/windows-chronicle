@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Хроника Windows · 1985–2026 · таймлайн</title>
+<style>
+:root { --ink:#1b2733; --muted:#5a6b7b; --bg:#f7f9fb; --card:#ffffff; }
+* { box-sizing: border-box; }
+body { margin:0; padding:2rem 1rem; font:16px/1.55 system-ui, sans-serif;
+       color:var(--ink); background:var(--bg); }
+main { max-width:52rem; margin:0 auto; }
+h1 { font-size:1.5rem; margin:0 0 .25rem; }
+.sub { color:var(--muted); margin:0 0 1.5rem; }
+ol.timeline { list-style:none; margin:0; padding:0 0 0 1.25rem;
+       border-left:2px solid #d4dde6; }
+li.event { position:relative; margin:0 0 1rem; padding:.75rem 1rem;
+       background:var(--card); border:1px solid #e3e9ef; border-radius:10px; }
+li.event::before { content:""; position:absolute; left:-1.72rem; top:1.15rem;
+       width:10px; height:10px; border-radius:50%; background:#2f6db3;
+       border:2px solid var(--bg); }
+.title { font-size:1.05rem; }
+.meta time { font-variant-numeric:tabular-nums; color:var(--muted);
+       margin-right:.6rem; }
+.line { font-size:.8rem; padding:.1rem .5rem; border-radius:999px;
+       background:#eaf1f8; color:#2f6db3; }
+.line-server { background:#eaf5ec; color:#2e7d43; }
+.line-side { background:#f6eefa; color:#7a4bab; }
+.line-service { background:#f4f1e9; color:#8a6d1f; }
+.line-metric { background:#e9f4f6; color:#1f7a8c; }
+.line-lifecycle { background:#f9ebe9; color:#a8402f; }
+.note { margin:.45rem 0 0; color:var(--muted); }
+.tags { margin:.45rem 0 0; }
+.tags code { font-size:.75rem; background:#eef2f6; border-radius:4px;
+       padding:.05rem .3rem; margin-right:.3rem; }
+footer { margin-top:1.5rem; color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Хроника Windows · 1985–2026</h1>
+  <p class="sub">Таймлайн, сгенерированный из машинных данных
+     <code>data/chronicle.jsonld</code> (schema.org/Event) скриптом
+     <code>scripts/build_timeline.py</code>. Детерминированная сборка:
+     двойной прогон байт-в-байт идентичен.</p>
+  <ol class="timeline">
+    <li class="event" id="WC-E001">
+      <strong class="title">Windows 1.0 (RTM)</strong>
+      <div class="meta"><time>1985-11-20</time><span class="line line-client">клиент</span></div>
+      <p class="note">первая версия; ~$99</p>
+      <p class="tags"><code>V-001</code><code>V-002</code></p>
+    </li>
+    <li class="event" id="WC-E002">
+      <strong class="title">Windows 2.0 (RTM)</strong>
+      <div class="meta"><time>1987-12-09</time><span class="line line-client">клиент</span></div>
+      <p class="note">перекрывающиеся окна</p>
+      <p class="tags"><code>V-003</code></p>
+    </li>
+    <li class="event" id="WC-E003">
+      <strong class="title">Windows 2.1; /286 и /386</strong>
+      <div class="meta"><time>1988-05-27</time><span class="line line-client">клиент</span></div>
+      <p class="note">день ритейла UNVERIFIED</p>
+      <p class="tags"><code>V-004</code></p>
+    </li>
+    <li class="event" id="WC-E004">
+      <strong class="title">Windows 3.0</strong>
+      <div class="meta"><time>1990-05-22</time><span class="line line-client">клиент</span></div>
+      <p class="note">первый массовый успех</p>
+      <p class="tags"><code>V-005</code></p>
+    </li>
+    <li class="event" id="WC-E005">
+      <strong class="title">Windows 3.1 (RTM)</strong>
+      <div class="meta"><time>1992-04-06</time><span class="line line-client">клиент</span></div>
+      <p class="note">последняя 16-битная</p>
+      <p class="tags"><code>V-006</code></p>
+    </li>
+    <li class="event" id="WC-E006">
+      <strong class="title">Windows for Workgroups 3.11</strong>
+      <div class="meta"><time>1993-11-08</time><span class="line line-client">клиент</span></div>
+      <p class="note">сетевая</p>
+      <p class="tags"><code>V-007</code></p>
+    </li>
+    <li class="event" id="WC-E007">
+      <strong class="title">Windows 95 (розница)</strong>
+      <div class="meta"><time>1995-08-24</time><span class="line line-client">клиент</span></div>
+      <p class="note">Start Me Up; кнопка Пуск; 7 млн за 5 недель</p>
+      <p class="tags"><code>V-008</code><code>V-009</code><code>V-092</code></p>
+    </li>
+    <li class="event" id="WC-E008">
+      <strong class="title">Windows 98 (розница)</strong>
+      <div class="meta"><time>1998-06-25</time><span class="line line-client">клиент</span></div>
+      <p class="note">Works Better Plays Better; запуск Windows Update</p>
+      <p class="tags"><code>V-010</code><code>V-011</code><code>V-093</code></p>
+    </li>
+    <li class="event" id="WC-E009">
+      <strong class="title">Windows 98 SE</strong>
+      <div class="meta"><time>1999-06-10</time><span class="line line-client">клиент</span></div>
+      <p class="tags"><code>V-012</code></p>
+    </li>
+    <li class="event" id="WC-E010">
+      <strong class="title">Windows 2000 (розница)</strong>
+      <div class="meta"><time>2000-02-17</time><span class="line line-client">клиент</span></div>
+      <p class="note">NT для бизнеса</p>
+      <p class="tags"><code>V-013</code></p>
+    </li>
+    <li class="event" id="WC-E011">
+      <strong class="title">Windows ME (розница)</strong>
+      <div class="meta"><time>2000-09-14</time><span class="line line-client">клиент</span></div>
+      <p class="note">Mistake Edition по PC World</p>
+      <p class="tags"><code>V-014</code><code>V-052</code></p>
+    </li>
+    <li class="event" id="WC-E012">
+      <strong class="title">Windows XP (розница)</strong>
+      <div class="meta"><time>2001-10-25</time><span class="line line-client">клиент</span></div>
+      <p class="note">ядро NT для всех; Product Activation</p>
+      <p class="tags"><code>V-015</code><code>V-071</code></p>
+    </li>
+    <li class="event" id="WC-E013">
+      <strong class="title">Windows Vista для бизнеса</strong>
+      <div class="meta"><time>2006-11-30</time><span class="line line-client">клиент</span></div>
+      <p class="note">RTM 08.11.2006</p>
+      <p class="tags"><code>V-016</code></p>
+    </li>
+    <li class="event" id="WC-E014">
+      <strong class="title">Windows Vista для потребителей</strong>
+      <div class="meta"><time>2007-01-30</time><span class="line line-client">клиент</span></div>
+      <p class="note">The Wow starts now</p>
+      <p class="tags"><code>V-016</code><code>V-096</code></p>
+    </li>
+    <li class="event" id="WC-E015">
+      <strong class="title">Windows 7 (GA)</strong>
+      <div class="meta"><time>2009-10-22</time><span class="line line-client">клиент</span></div>
+      <p class="note">was my idea (CP+B)</p>
+      <p class="tags"><code>V-017</code><code>V-099</code></p>
+    </li>
+    <li class="event" id="WC-E016">
+      <strong class="title">Windows 8 (GA)</strong>
+      <div class="meta"><time>2012-10-26</time><span class="line line-client">клиент</span></div>
+      <p class="note">Пуск убран; маркетинг 1,5-1,8 млрд</p>
+      <p class="tags"><code>V-018</code><code>V-079</code><code>V-100</code></p>
+    </li>
+    <li class="event" id="WC-E017">
+      <strong class="title">Windows 8.1 (GA)</strong>
+      <div class="meta"><time>2013-10-17</time><span class="line line-client">клиент</span></div>
+      <p class="note">частичный возврат Пуска</p>
+      <p class="tags"><code>V-019</code><code>V-081</code></p>
+    </li>
+    <li class="event" id="WC-E018">
+      <strong class="title">Windows 10 (GA)</strong>
+      <div class="meta"><time>2015-07-29</time><span class="line line-client">клиент</span></div>
+      <p class="note">бесплатный апгрейд; Do great things</p>
+      <p class="tags"><code>V-020</code><code>V-021</code></p>
+    </li>
+    <li class="event" id="WC-E019">
+      <strong class="title">Win10: 1 млрд активных устройств</strong>
+      <div class="meta"><time>2020-03-16</time><span class="line line-metric">метрика</span></div>
+      <p class="note">официально</p>
+      <p class="tags"><code>V-022</code></p>
+    </li>
+    <li class="event" id="WC-E020">
+      <strong class="title">Анонс Windows 11</strong>
+      <div class="meta"><time>2021-06-24</time><span class="line line-client">клиент</span></div>
+      <p class="tags"><code>V-024</code></p>
+    </li>
+    <li class="event" id="WC-E021">
+      <strong class="title">Windows 11 (GA)</strong>
+      <div class="meta"><time>2021-10-05</time><span class="line line-client">клиент</span></div>
+      <p class="note">TPM 2.0 обязателен</p>
+      <p class="tags"><code>V-025</code><code>V-026</code></p>
+    </li>
+    <li class="event" id="WC-E022">
+      <strong class="title">Windows 11 22H2</strong>
+      <div class="meta"><time>2022-09-20</time><span class="line line-client">клиент</span></div>
+      <p class="note">MSA обязательна и в Pro</p>
+      <p class="tags"><code>V-027</code><code>V-072</code></p>
+    </li>
+    <li class="event" id="WC-E023">
+      <strong class="title">Windows 11 23H2</strong>
+      <div class="meta"><time>2023-10-31</time><span class="line line-client">клиент</span></div>
+      <p class="tags"><code>V-027</code></p>
+    </li>
+    <li class="event" id="WC-E024">
+      <strong class="title">Windows 11 24H2</strong>
+      <div class="meta"><time>2024-10-01</time><span class="line line-client">клиент</span></div>
+      <p class="tags"><code>V-027</code></p>
+    </li>
+    <li class="event" id="WC-E025">
+      <strong class="title">Windows 11 25H2</strong>
+      <div class="meta"><time>2025-09-30</time><span class="line line-client">клиент</span></div>
+      <p class="tags"><code>V-027</code></p>
+    </li>
+    <li class="event" id="WC-E026">
+      <strong class="title">EOL Windows 10</strong>
+      <div class="meta"><time>2025-10-14</time><span class="line line-lifecycle">жизненный цикл</span></div>
+      <p class="note">ESU: 30 долл/год или бесплатные пути; продлена до 10.2027</p>
+      <p class="tags"><code>V-023</code><code>V-044</code><code>V-045</code><code>V-046</code></p>
+    </li>
+    <li class="event" id="WC-E027">
+      <strong class="title">Windows Server 2003</strong>
+      <div class="meta"><time>2003-04-24</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-028</code></p>
+    </li>
+    <li class="event" id="WC-E028">
+      <strong class="title">Windows Server 2008</strong>
+      <div class="meta"><time>2008-02-27</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-029</code></p>
+    </li>
+    <li class="event" id="WC-E029">
+      <strong class="title">Windows Server 2008 R2</strong>
+      <div class="meta"><time>2009-10-22</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-030</code></p>
+    </li>
+    <li class="event" id="WC-E030">
+      <strong class="title">Windows Server 2012</strong>
+      <div class="meta"><time>2012-09-04</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-031</code></p>
+    </li>
+    <li class="event" id="WC-E031">
+      <strong class="title">Windows Server 2012 R2</strong>
+      <div class="meta"><time>2013-10-17</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-032</code></p>
+    </li>
+    <li class="event" id="WC-E032">
+      <strong class="title">Windows Server 2016</strong>
+      <div class="meta"><time>2016-10-12</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-033</code></p>
+    </li>
+    <li class="event" id="WC-E033">
+      <strong class="title">Windows Server 2019</strong>
+      <div class="meta"><time>2018-11-13</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-034</code></p>
+    </li>
+    <li class="event" id="WC-E034">
+      <strong class="title">Windows Server 2022</strong>
+      <div class="meta"><time>2021-08-18</time><span class="line line-server">сервер</span></div>
+      <p class="tags"><code>V-035</code></p>
+    </li>
+    <li class="event" id="WC-E035">
+      <strong class="title">Windows Server 2025</strong>
+      <div class="meta"><time>2024-11-01</time><span class="line line-server">сервер</span></div>
+      <p class="note">на ядре Win11 24H2</p>
+      <p class="tags"><code>V-036</code></p>
+    </li>
+    <li class="event" id="WC-E036">
+      <strong class="title">Windows CE 1.0</strong>
+      <div class="meta"><time>1996-11-16</time><span class="line line-side">побочная</span></div>
+      <p class="tags"><code>V-037</code></p>
+    </li>
+    <li class="event" id="WC-E037">
+      <strong class="title">Windows Mobile (Pocket PC 2000)</strong>
+      <div class="meta"><time>2000-04</time><span class="line line-side">побочная</span></div>
+      <p class="tags"><code>V-038</code></p>
+    </li>
+    <li class="event" id="WC-E038">
+      <strong class="title">Windows Phone 7 (мир)</strong>
+      <div class="meta"><time>2010-10-21</time><span class="line line-side">побочная</span></div>
+      <p class="note">США 08.11.2010</p>
+      <p class="tags"><code>V-039</code></p>
+    </li>
+    <li class="event" id="WC-E039">
+      <strong class="title">Конец поддержки WP 8.1</strong>
+      <div class="meta"><time>2017-07-11</time><span class="line line-side">побочная</span></div>
+      <p class="note">конец мобильной линии</p>
+      <p class="tags"><code>V-040</code></p>
+    </li>
+    <li class="event" id="WC-E040">
+      <strong class="title">Patch Tuesday формализован</strong>
+      <div class="meta"><time>2003-10</time><span class="line line-service">служебное</span></div>
+      <p class="note">день первого UNVERIFIED</p>
+      <p class="tags"><code>V-043</code></p>
+    </li>
+    <li class="event" id="WC-E041">
+      <strong class="title">Доля Windows 76,41% десктопов</strong>
+      <div class="meta"><time>2026-09</time><span class="line line-metric">метрика</span></div>
+      <p class="note">StatCounter</p>
+      <p class="tags"><code>V-047</code></p>
+    </li>
+  </ol>
+  <footer>Источники и метод — <a href="06-sources/sources.md">06-sources</a>;
+     данные — <a href="data/chronicle.jsonld">data/chronicle.jsonld</a>.</footer>
+</main>
+</body>
+</html>

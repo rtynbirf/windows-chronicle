@@ -25,6 +25,21 @@
 | `06-sources/sources.md` | Источники с URL, проверенные при составлении |
 | `07-prototypes/three-architectures.md` | 🚀 Экстраполяция: три прототипа архитектуры «с нуля» по итогам 41 года — HELIOS (полюс −), SOVEREIGN (полюс +), SYMBION (золотая середина) |
 | `08-anticenzor/README.md` | 🛠 Практика: PAC «Антицензор» — выборочная маршрутизация, человек=PID 1; сборщик + тесты + установка на Win10/11 |
+| `data/chronicle.jsonld` | 🧬 Машинный таймлайн (П57): все 41 событие `data/timeline.csv` как schema.org/Event в `@graph` — датасет читается любым JSON-LD-парсером |
+| `timeline.html` | 🖥 HTML-таймлайн, сгенерированный из JSON-LD скриптом `scripts/build_timeline.py` — детерминированная сборка (двойной прогон байт-в-байт идентичен), офлайн, без внешних ресурсов |
+
+### Машинные данные и сборка (П57, issue #6)
+
+Поток данных: `data/timeline.csv` (источник истины) → `data/chronicle.jsonld`
+(schema.org) → `timeline.html` (визуализация).
+
+```bash
+python3 scripts/csv_to_jsonld.py            # CSV → JSON-LD (или --check на дрейф)
+python3 scripts/build_timeline.py           # JSON-LD → timeline.html
+python3 scripts/build_timeline.py --selftest
+# PASS JSON-LD валиден (41 событие) · двойная сборка идентична ·
+# событий в HTML == в JSON-LD
+```
 
 ## Ключевые цифры (на момент составления)
 

@@ -35,3 +35,4 @@
 - [GitHub](https://github.com/rtynbirf/windows-chronicle)
 - [README](https://github.com/rtynbirf/windows-chronicle/blob/main/README.md)
 - [raw llms.txt](https://raw.githubusercontent.com/rtynbirf/windows-chronicle/main/llms.txt)
+- [PULSE.md](PULSE.md): живой пульс репозитория — прогоны, пломбы, здоровье.

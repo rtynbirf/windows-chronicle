@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="banner.png" alt="windows-chronicle — Полная хроника Microsoft Windows 1985–2026" width="100%">
+</div>
+
 # 🪟 Windows Chronicle (1985–2026)
 
 Полная систематизированная хроника операционных систем Microsoft Windows: **все поколения за 41 год**, каталог болей пользователей, каталог активного продвижения и главный рейтинг «между двумя полюсами».
